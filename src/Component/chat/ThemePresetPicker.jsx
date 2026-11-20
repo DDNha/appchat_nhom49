@@ -1,7 +1,7 @@
 import { Button, Modal, useOverlayState } from "@heroui/react";
 import { Check, Palette } from "lucide-react";
 import { applyThemePresetToDocument, useTheme } from "../context/theme";
-import { HERO_UI_THEME_PRESETS } from "../data/herouiThemePresets";
+import { HERO_UI_THEME_PRESETS } from "../../data/herouiThemePresets";
 
 export function ThemePresetPicker() {
   const modal = useOverlayState();
